@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Manager</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f6f9;
+            margin:0;
+            padding:0;
+            text-align:center;
+        }
+
+        header{
+            background:#2c3e50;
+            color:white;
+            padding:25px;
+        }
+
+        main{
+            margin-top:40px;
+        }
+
+        .container{
+            width:60%;
+            margin:auto;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            margin:20px;
+            border-radius:10px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        a{
+            display:inline-block;
+            padding:12px 20px;
+            margin:10px;
+            background:#3498db;
+            color:white;
+            text-decoration:none;
+            border-radius:6px;
+        }
+
+        a:hover{
+            background:#2980b9;
+        }
+
+        footer{
+            margin-top:40px;
+            padding:15px;
+            background:#ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Task Manager API</h1>
+    <p>Backend Lab Project</p>
+</header>
+
+<main>
+<div class="container">
+
+<div class="card">
+<h2>Navigation</h2>
+
+<a href="/tasks">View All Tasks</a>
+<a href="/tasks/new">Create New Task</a>
+<a href="/friday">Friday Page</a>
+
+</div>
+
+<div class="card">
+<h3>About</h3>
+<p>
+This project demonstrates a backend system built with Express, EJS templates,
+and CRUD operations for task management.
+</p>
+</div>
+
+</div>
+</main>
+
+<footer>
+<p>Backend Lab Project – Node.js + Express + EJS</p>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <h1>Welcome to Lab 3</h1>
+
+<ul>
+<li><a href="/friday">Friday Page</a></li>
+<li><a href="/tasks">View Tasks</a></li>
+<li><a href="/tasks/new">Create Task</a></li>
+</ul> -->
